@@ -1,0 +1,4 @@
+# PHP Foreach Loop Pass by Reference Unexpected Modification
+This repository demonstrates an uncommon bug in PHP related to the use of pass by reference in a foreach loop.  The code intends to increment only odd numbers in an array, but due to pass by reference, it modifies the original array in unexpected ways.
+The `bug.php` file contains the buggy code. The `bugSolution.php` file shows the corrected version.  The bug arises from a misunderstanding of how foreach and pass-by-reference interact.
+This example highlights the importance of understanding the implications of pass-by-reference in PHP when working with arrays or objects within loops.
